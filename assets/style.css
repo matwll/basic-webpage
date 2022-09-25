@@ -26,3 +26,6 @@ body {
 .about-me{
     width: 50%;
 }
+#contact-me{
+    width: fit-content;
+}
