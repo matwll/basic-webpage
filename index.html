@@ -8,29 +8,33 @@
     <title>Matthew Williams Portfolio website</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Matthew Williams</h1>
-        <nav id="nav">
-            <a href="#">About Me</a>
-            <a href="#">Project Links</a>
-            <a href="#">Contact</a>
-        </nav id="nav">
+        <nav>
+            <a href="#about-me-anchor">About Me</a>
+            <a href="#links-anchor">Project Links</a>
+            <a href="#contact-me-anchor">Contact</a>
+        </nav>
     </header>
 
-    <section class="about-me">
+    <div class="background"></div>
+
+    <section id="about-me-anchor" class="about-me">
         <h3>A little about me</h3>
-        <p>Hello,<br>&emsp;I am a Production Planner, currently learning web development. This website will evolve as
-            my skills do. A little about me. I enjoy working on my car when I have time. Currently it needs some repair
-            work since someone ran into me on the way home from work. I do not have any children, but I always have a
-            dog around. Since there are so many in shelters I adopt middle age/older dogs. Currently I have 2 pitbulls
-            named Addie and Aiden who are 9 years old. 
-            <div class="dogs">
+        <p>Hello,<br>&emsp;I am a Production Planner at PPG Industries, currently learning web development. This website will evolve as
+            my skills do. <br> A little about me. I enjoy working on my car when I have time. Currently it needs some repair
+            work since <br> someone ran into me on the way home from work. I do not have any children, but I always have a
+            dog around. <br> Since there are so many in shelters I adopt middle age/older dogs. Currently I have 2 pitbulls
+            named Addie and <br> Aiden who are 9 years old. 
+            <div class="pictures">
                 <figure>
                     <img src="./assets/images/IMG_0737.jpg" alt="my current dogs" height="auto" width="150px">
                     <figcaption>Aiden & Addie</figcaption>
                 </figure>
-                <img src="#" alt="" height="auto" width="150px">
-                <figcaption>Stuff</figcaption>
+                <figure>
+                    <img src="./assets/images/me and victoria.jpg" alt="Victoria and I" height="auto" width="150px">
+                    <figcaption>Me and Victoria</figcaption>
+                </figure>
                 <figure>
                     <img src="./assets/images/IMG_0057.JPG" alt="car" height="200px" width="auto">
                     <figcaption>My Car</figcaption>
@@ -39,13 +43,23 @@
         </p>
     </section>
 
-    <section id="contact-me">
-        <h2>Contact Me</h2>
+    <section id="links-anchor" class="links">
+        <h3>My links</h3>
+        <a href="https://matwll.github.io/Prework-study-guide/">Study guide with some notes</a><br>
+        <a href="#">Placeholder 1</a><br>
+        <a href="#">Placeholder 2</a><br>
+        <a href="#">Placeholder 3</a><br>
+    </section>
+
+    <section id="contact-me-anchor" class="contact-me">
+        <h2>Contact</h2>
         <form action="">
             <label for="fullname">Full Name</label><br>
             <input type="text"><br>
             <label for="email">Email Address</label><br>
             <input type="text"><br>
+            <label for="phone-number">Phone Number</label><br>
+            <input type="number"><br>
             <input type="submit" value="submit">
         </form>
     </section>
